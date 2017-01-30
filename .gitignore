@@ -1,3 +1,5 @@
+.DS_Store
+
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
@@ -6,6 +8,7 @@
 # Folders
 _obj
 _test
+core
 
 # Architecture specific extensions/prefixes
 *.[568vq]
