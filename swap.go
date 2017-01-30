@@ -5,10 +5,7 @@ import (
 )
 
 func swap(x *int, y *int) {
-	temp := new(int)
-	*temp = *x
-	*x = *y
-	*y = *temp
+	*x, *y = *y, *x
 }
 
 func main() {
